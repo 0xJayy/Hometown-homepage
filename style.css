@@ -1,0 +1,102 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(#90e0ef, #ade8f4);
+}
+
+#hero-image {
+  background-image: url("./images/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.hero-header {
+  margin: 0;
+  background-color: #03045e;
+  color: #ffff;
+  width: max-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.hero-text {
+  background-color: #0077b6;
+  color: #ffff;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+}
+
+.activity-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.activities-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0 0 0;
+}
+
+.activity-one,
+.activity-two,
+.activity-three {
+  width: 250px;
+}
+
+.guide-pfp-img {
+  width: 180px;
+  height: 248px;
+  border-radius: 15px;
+}
+
+.guide-card {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  margin: 50px auto;
+  background-color: #48cae4;
+  padding: 0px 15px;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 7px #03045e;
+}
+
+.guide-img {
+  margin-right: 20px;
+  width: 180px;
+  height: 248px;
+}
+
+.activity-three:hover,
+.activity-two:hover,
+.activity-one:hover,
+.guide-card:hover,
+.hero-header:hover,
+.hero-text:hover {
+  transform: scale(1.1);
+}
+
+.activities-header {
+  width: max-content;
+  margin: 10px auto;
+}
+
+.activities-header:hover {
+  border-bottom: 3px solid #03045e;
+}
